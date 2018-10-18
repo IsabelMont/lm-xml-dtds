@@ -1,1 +1,27 @@
-<!ELEMENT factura (#PCDATA)>
+<!ELEMENT factura (emision,vendedor,cliente,articulo*,descuento?)>
+        <!ATTLIST factura
+                id ID>
+        <!ELEMENT emision (#PCDATA)>
+        <!ELEMENT vendedor (nombre)>
+        <!ATTLIST vendedor
+                id ID>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT cliente (nombre,direccion,telefono?)>
+        <!ATTLIST cliente
+                id ID>
+        <!ELEMENT direccion (via,cp,localidad,provincia)>
+        <!ELEMENT via (#PCDATA)>
+        <!ELEMENT cp (#PCDATA)>
+        <!ELEMENT localidad (#PCDATA)>
+        <!ELEMENT provincia (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ATTLIST telefono
+                num CDATA>
+        <!ELEMENT articulo (denominacion,precio,cantidad)>
+        <!ATTLIST articulo
+                id ID
+                iva (18|21) IMPLIED>
+        <!ELEMENT denominacion (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT cantidad (#PCDATA)>
+        <!ELEMENT descuento (#PCDATA)>

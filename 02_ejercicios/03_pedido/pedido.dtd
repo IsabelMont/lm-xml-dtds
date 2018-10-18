@@ -1,1 +1,25 @@
-<!ELEMENT pedido (#PCDATA)>
+<!ELEMENT pedido (fecha,cuerpo_pedido,cliente)>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT cuerpo_pedido (articulo*)>
+        <!ELEMENT articulo (nombre,tipo,unidades,precio)>
+        <!ATTLIST articulo
+                id CDATA #REQUIRED
+                >
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT tipo (#PCDATA)>
+        <!ELEMENT unidades (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT cliente (nombre,direccion*)>
+
+        <!ELEMENT direccion (nombre?,calle,numero,cp,localidad,provincia)>
+        <!ATTLIST direccion
+                tipo (entrega|facturacion) #IMPLIED
+                >
+        <!ELEMENT calle (#PCDATA)>
+        <!ELEMENT numero (#PCDATA)>
+        <!ELEMENT cp (#PCDATA)>
+        <!ELEMENT localidad (#PCDATA)>
+        <!ELEMENT provincia (#PCDATA)>
+
+
+

@@ -1,1 +1,14 @@
-<!ELEMENT listin (#PCDATA)>
+<!ELEMENT listin (persona*)>
+<!ELEMENT persona (nombre,email*,relacion?)>
+
+<!ATTLIST persona
+            id CDATA #REQUIRED
+            sexo (hombre|mujer) #IMPLIED>
+
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT relacion EMPTY>
+<!ATTLIST relacion
+        amigo_de CDATA #IMPLIED
+        enemigo_de CDATA #IMPLIED
+        >

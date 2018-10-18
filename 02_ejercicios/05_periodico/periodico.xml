@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE periodico SYSTEM "periodico.dtd">
 <periodico>
+    <cabecera>
+        <nombre>ELCORREO</nombre>
+        <fechaylugar>13/10/2018</fechaylugar>
+        <numerodeejemplar>1205</numerodeejemplar>
+        <precio>2.95€</precio>
+    </cabecera>
+    <portada>
+        <titular>FIN DEL MUNDO</titular>
+        <noticiasDia>Subida de impuestos</noticiasDia>
+        <noticiasDia>Cortan las calles</noticiasDia>
+        <espacioPublicitario>Patrocinado por Adidas</espacioPublicitario>
+    </portada>
+    <seccion tipo="Nacional">
+        <noticias>
+            <titulo>Cortan las calles</titulo>
+            <subtitulo>En vitoria</subtitulo>
+            <entradilla>El ciclismo en vitoria de nuevo</entradilla>
+            <cuerpo>jadslkfnalskdnflkasdnflkasndflknasdlkfnlksadnflk</cuerpo>
+        </noticias>
+        <noticias>
+            <titulo>Subida de impuestos</titulo>
+            <subtitulo>En España</subtitulo>
+            <entradilla>Es increible aumento del 30 %</entradilla>
+            <cuerpo>dsjfanlkasdfkjlasdlkfalskdjflkasdjflksjdlkf</cuerpo>
+        </noticias>
+    </seccion>
+    <seccion tipo="TvRadio">
+        <noticias>
+            <titulo>GRAN HERMANO</titulo>
+            <subtitulo>10º Edición</subtitulo>
+            <entradilla> Vuelve más cargado que nunca</entradilla>
+            <cuerpo> klsdlfknasdlkfnlskdnflkansdlfknasdlkfnlaskdnflkasdnf</cuerpo>
+        </noticias>
+    </seccion>
+    <contraportada>ELCORREO</contraportada>
+
 </periodico>

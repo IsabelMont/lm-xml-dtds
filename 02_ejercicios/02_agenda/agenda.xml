@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
 <agenda>
+    <contacto>
+        <nombre>Carlos</nombre>
+        <direccion>calle asturias</direccion>
+        <ciudad>Asturias</ciudad>
+        <provincia>Asturias</provincia>
+        <codigopostal>01001</codigopostal>
+        <numeros>
+            <telefono>945152255</telefono>
+            <fax>945222222</fax>
+        </numeros>
+        <email>carlos@carlos.com</email>
+        <web>www.noteconocenadie.com</web>
+        <compañia>Carlos.ck</compañia>
+    </contacto>
 </agenda>

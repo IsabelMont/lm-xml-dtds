@@ -9,4 +9,4 @@ Se deberá crear una DTD para estructurar un periódico a partir de las siguient
 - Las secciones están formadas por noticias.
 - Cada noticia se estructura en título, subtítulo, entradilla y cuerpo.
 
-Una vez elaborado el DTD crea un documento XML valido.
+Una vez elaborado el DTD crea un documento XML valid
